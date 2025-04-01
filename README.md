@@ -18,3 +18,7 @@ const signInUser = (authResult: any) => {
 
   return setShowModal(false);
 };
+
+## Milestones
+
+For detailed information about the milestones for the CA--pi project, please refer to the [MILESTONE.md](MILESTONE.md) file.
