@@ -1,2 +1,8 @@
 include ':app'
+
+// Additional Gradle settings can be added here if needed
+// For example, including other modules or configuring project-wide properties
+
+// Ensure the file is well-organized and includes comments to explain the purpose of each setting
+
 rootProject.name = 'CA--pi'
