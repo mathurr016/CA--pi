@@ -48,6 +48,7 @@
     mvn-toolchain-id: # optional
     # Name of Maven Toolchain Vendor if the default name of "${distribution}" is not wanted. See examples of supported syntax in Advanced Usage file
     mvn-toolchain-vendor: # optional
+    [![.github/workflows/deno.yml](https://github.com/mathurr016/CA--pi/actions/workflows/deno.yml/badge.svg?event=check_run)](https://github.com/mathurr016/CA--pi/actions/workflows/deno.yml)
     
 name: Deno
 
@@ -77,7 +78,20 @@ jobs:
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
       # - name: Verify formatting
       #   run: deno fmt --check
-
+            - name: Setup Nsolid environment
+  # You may pin to the exact commit or the version.
+  # uses: nodesource/setup-nsolid@1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939
+  uses: nodesource/setup-nsolid@v1.0.1
+  with:
+    # Node to use, if no values specified we will setup the major version available for the nsolid-version. E.g: 18.x, 20.x.
+    node-version: # optional
+    # Nsolid version to use. E.g: 5.0.5, 4.10.0, latest.
+    nsolid-version: 
+    # Target operating system for Nsolid to use. E.g: linux, darwin, win32. Will use linux by default.
+    platform: # optional
+    # Target architecture for Node to use.
+    arch: # optional
+          
       - name: Run linter
         run: deno lint
 
