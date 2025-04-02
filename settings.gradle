@@ -1,6 +1,5 @@
 include ':app'
-
-rootProject.name = ':CA-pi'
+rootProject.name = 'CA--pi'
 
 // Additional Gradle settings can be added here if needed
 // For example, including other modules or configuring project-wide properties
