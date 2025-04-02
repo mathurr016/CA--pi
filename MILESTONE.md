@@ -2,6 +2,10 @@
 
 ## Project Overview
 
+https://github.com/mathurr016/CA--pi/actions/runs/14224519600
+
+https://github.com/stateful/.github/commit/14914ee72cfacd5748cb0bad64c05957f2b05b22
+
 The CA--pi project aims to create a comprehensive platform for managing and analyzing data related to the Pi cryptocurrency. The project includes various components such as data collection, data processing, and data visualization.
 
 ## Milestone Details
