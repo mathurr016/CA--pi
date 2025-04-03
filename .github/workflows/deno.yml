@@ -81,8 +81,7 @@ jobs:
 
       # - name: Verify formatting
       #   run: deno fmt --check
-
-            - name: Setup Nsolid environment
+    - name: Setup Nsolid environment
   # You may pin to the exact commit or the version.
   # uses:
  nodesource/setup-nsolid@1ca68d2589d3d56ecd3881dfe6ffa87eeda9c939
