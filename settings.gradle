@@ -2,7 +2,9 @@ include ':app'
 rootProject.name = 'CA--pi'
 
 // Additional Gradle settings can be added here if needed
+
 // For example, including other modules or configuring project-wide properties
 
 // This file includes the app module and sets the root project name
+
 // Comments have been added to explain the purpose of each setting
